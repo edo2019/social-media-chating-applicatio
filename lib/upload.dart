@@ -11,12 +11,9 @@ class _uploadState extends State<upload> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body:Center(
-       child: Text('upload page'),
-
+      body: Center(
+        child: Text('upload page'),
       ),
-
-
     );
   }
 }

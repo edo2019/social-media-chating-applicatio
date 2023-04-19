@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'jisajili.dart';
+
 class welcome extends StatefulWidget {
   const welcome({Key? key}) : super(key: key);
 
@@ -14,7 +15,6 @@ class _welcomeState extends State<welcome> {
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 30),
         child: Center(
-
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -23,23 +23,21 @@ class _welcomeState extends State<welcome> {
               Container(
                 height: 200,
                 width: 200,
-
                 child: Image(
                   image: AssetImage('images/logo.png'),
                 ),
               ),
-             //SizedBox(height: 0),
+              //SizedBox(height: 0),
               Container(
-                  height: 100,
-                  width: 500,
-                  alignment: Alignment.center,
-                  child: Text(
-                      'Tuchati',
-                    style: TextStyle(
-                      fontSize: 50,
-                    ),
-
+                height: 100,
+                width: 500,
+                alignment: Alignment.center,
+                child: Text(
+                  'Tuchati',
+                  style: TextStyle(
+                    fontSize: 50,
                   ),
+                ),
               ),
               SizedBox(height: 10),
               Container(
@@ -53,36 +51,32 @@ class _welcomeState extends State<welcome> {
                   ),
                 ),
               ),
-          SizedBox(height: 30),
-          Positioned(
-              bottom: 20,
-              right: 0,
-              left: 0,
-              child: Container(
-                height: 50,
-                width: double.infinity,
-                margin: EdgeInsets.symmetric(horizontal: 30),
-                child: ElevatedButton(
-                  onPressed: (){
-                    Navigator.push(
+              SizedBox(height: 30),
+              Positioned(
+                bottom: 20,
+                right: 0,
+                left: 0,
+                child: Container(
+                  height: 50,
+                  width: double.infinity,
+                  margin: EdgeInsets.symmetric(horizontal: 30),
+                  child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) => jisajili()),
-                    );
+                      );
                     },
-                  child: Text(
+                    child: Text(
                       'Start Messaging',
+                    ),
                   ),
                 ),
-
-
               ),
-          ),
             ],
-
           ),
         ),
       ),
-
     );
   }
 }
