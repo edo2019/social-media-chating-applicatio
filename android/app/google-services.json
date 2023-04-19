@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "926443620111",
+    "project_id": "tuchat-backend",
+    "storage_bucket": "tuchat-backend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926443620111:android:9e2ca4fb492c95be24207a",
+        "android_client_info": {
+          "package_name": "com.example.tuchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926443620111-7prr2sj1e9rdlpmeh6lccn2t01nfaho5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUX_RidjmRLKV0iko9H1Xx7QfXg8BQHAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926443620111-7prr2sj1e9rdlpmeh6lccn2t01nfaho5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

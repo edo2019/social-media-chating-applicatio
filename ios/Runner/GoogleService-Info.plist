@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>926443620111-708e1s8pncf5q2nqgncpndbpf4qklh31.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.926443620111-708e1s8pncf5q2nqgncpndbpf4qklh31</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC9Gk4yv1wODDerBmIvQCwrMJ1PDKhJZaU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>926443620111</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.tuchat</string>
+	<key>PROJECT_ID</key>
+	<string>tuchat-backend</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tuchat-backend.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:926443620111:ios:ea5c18f06644d11624207a</string>
+</dict>
+</plist>
